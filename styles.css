@@ -1,0 +1,49 @@
+html{
+    background-color: darkblue !important;
+}
+
+.karuselli{
+    width: 800px;
+    margin: auto;
+
+}
+
+.divi1{
+    margin: 50px;
+    background-color: orange;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 25px;
+    
+}
+
+.divi2{
+    background-color: darkblue;
+
+}
+body{
+    background-color: darkblue !important;
+
+}
+
+.accordion{
+    width: 800px;
+    background-color: antiquewhite;
+    position: fixed;
+    margin-left: -400px;
+    margin-top: -300px;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.buttons{
+    text-align: center;
+    background-color: bisque;
+    border: 4px solid bisque;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    margin: 100px;
+    
+}
