@@ -1,0 +1,88 @@
+
+$color: rgb(0, 0, 139);
+
+
+div[class*="collapse navbar-collapse"]{
+    background: rgb(139, 138, 138);
+}
+
+
+html{
+    background: $color !important;
+}
+
+.karuselli{
+    width: 800px;
+    margin: auto;
+
+}
+
+.divi1 {
+    margin: 50px;
+    background-color: orange;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 25px;
+
+}
+
+.divi2{
+    background-color: $color;
+
+}
+body{
+    background: $color !important;
+
+}
+
+.accordion{
+    width: 800px;
+    background-color: antiquewhite;
+    position: fixed;
+    margin-left: -400px;
+    margin-top: -300px;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.buttons{
+    text-align: center;
+    background-color: bisque;
+    border: 4px solid bisque;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    margin: 100px;
+    
+}
+
+button:hover{
+    color: rgb(223, 19, 19);
+    text-align: center;
+    position: absolute;
+    
+}
+
+
+div#container > p{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color: purple;
+
+}
+div ~ p{
+    background-color: purple;
+
+}
+
+div + p{
+    background-color: red;
+    text-align: center;
+}
+
+
+
+
+
