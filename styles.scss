@@ -72,8 +72,9 @@ div#container > p{
     background-color: purple;
 
 }
-div ~ p{
-    background-color: purple;
+p ~ p{
+    background-color: orange;
+    text-align: center;
 
 }
 
